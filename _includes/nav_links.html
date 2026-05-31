@@ -1,5 +1,4 @@
-{% for page in site.pages %}
-	{% if page.title and page.main_nav == true %}
-	<li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-	{% endif %}
-{% endfor %}
+<li class="nav-link"><a href="{{ site.baseurl }}/">דף הבית</a></li>
+<li class="nav-link"><a href="{{ site.baseurl }}/kitchen/">מטבח</a></li>
+<li class="nav-link"><a href="{{ site.baseurl }}/laundry/">כביסה</a></li>
+<li class="nav-link"><a href="{{ site.baseurl }}/living-room/">סלון וחצר</a></li>
