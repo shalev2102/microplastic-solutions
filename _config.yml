@@ -10,6 +10,7 @@ exclude:
 
 # Site settings
 title: אלטרנטיבה
+timezone: Asia/Jerusalem
 subtitle: "פלסטיק זה לא הכל בחיים"
 email: blcentra@gmail.com
 name: Ben Centra
