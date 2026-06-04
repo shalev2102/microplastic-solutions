@@ -12,7 +12,9 @@
     </div>
 
     {% include footer.html %}
-
+    <div style="text-align: center; padding: 20px; font-size: 0.85em; color: #a2a2a2; background: #f9f9f9; border-top: 1px solid #eee;">
+  האתר עודכן לאחרונה בתאריך: {{ site.time | date: "%d/%m/%Y בשעה %H:%M:%S" }}
+    </div>
   </body>
 
 </html>
