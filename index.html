@@ -5,6 +5,15 @@ pagination:
 ---
 <div class="home">
 
+  <style>
+  /* שולט בגובה של תמונת הרקע בדף הבית */
+  .site-header-container.has-cover {
+    min-height: 350px !important; /* גובה מינימלי חדש - אפשר לשנות למספר קטן יותר כדי להצר עוד */
+    padding: 60px 0 !important;   /* מקטין את הריפוד העליון והתחתון כדי לכווץ את התמונה */
+    height: auto !important;      /* מבטל את ההשתלטות של התבנית על כל גובה המסך */
+  }
+</style>
+
 <div class="site-header-container {% if site.cover %}has-cover{% endif %}" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }});"{% endif %}>
   <div class="scrim {% if site.cover %}has-cover{% endif %}">
     <header class="site-header">
